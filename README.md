@@ -2,16 +2,6 @@
 
 A modern e-commerce web application built with ASP.NET Core MVC, providing a robust and scalable solution for online retail businesses.
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Application Workflow](#application-workflow)
-- [Database Design](#database-design)
-- [ERD Diagram](#erd-diagram)
-
 ## ✨ Features
 
 - User Authentication and Authorization
@@ -53,47 +43,6 @@ BestStoreMVC/
 └── Program.cs         # Application entry point
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- .NET 6.0 SDK or later
-- SQL Server
-- Visual Studio 2022 or Visual Studio Code
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/BestStoreMVC.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd BestStoreMVC
-```
-
-3. Restore dependencies:
-
-```bash
-dotnet restore
-```
-
-4. Update the connection string in `appsettings.json`
-
-5. Apply database migrations:
-
-```bash
-dotnet ef database update
-```
-
-6. Run the application:
-
-```bash
-dotnet run
-```
 
 ## 📊 Application Workflow
 
